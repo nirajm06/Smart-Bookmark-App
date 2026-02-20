@@ -22,17 +22,17 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Live URL: https://smart-bookmark-app-peach-nu.vercel.app/
 
-## Problems Faced During Development & How I Solved Them
+# Problems Faced During Development & How I Solved Them
 
-# Google OAuth Error – 401: deleted_client
+## Google OAuth Error – 401: deleted_client
 When trying to log in, I received: Error 401: deleted_client 
 Users were unable to authenticate.
 
-# Root Cause
+## Root Cause
 
 The OAuth Client ID configured in Supabase had been deleted or was created in a different Google Cloud project.
 
-# Solution
+## Solution
 
 Created a new OAuth Client ID in Google Cloud Console
 
@@ -55,4 +55,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
 
